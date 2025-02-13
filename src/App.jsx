@@ -8,7 +8,7 @@ function App() {
   const [scale, setScale] = useState(1);
 
   useEffect(() =>{
-    emailjs.init("o1BNtwwJHp8NKwV85");
+   emailjs.init("your-public-api-key");
   }, []);
 
   const handleYesClick = () => {
@@ -17,10 +17,10 @@ function App() {
 
     // Send email silently
     emailjs.send(
-      'service_rdpxdek',   // Replace with your EmailJS Service ID
-      'template_rwixq1a',  // Replace with your EmailJS Template ID
-      { message: 'She said yes.' }, // Email content
-      'o1BNtwwJHp8NKwV85'    // Replace with your EmailJS Public Key
+     'your-email-service id',   // Replace with your EmailJS Service ID
+      'your-template-id',  // Replace with your EmailJS Template ID
+      { message: 'your custom message(eg she/he said yes).' }, // Email content
+      'your-public-api-key'    // Replace with your EmailJS Public Key
     )
     .then(() => {
       console.log('Email sent successfully');
