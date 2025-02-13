@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 
 function App() {
 
-  const [gif, setGif] = useState("/giphy.gif");
+  const [gif, setGif] = useState("public/giphy.gif");
   const [isYesClicked, setIsYesClicked] = useState(false);
   const [scale, setScale] = useState(1);
 
@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   const handleYesClick = () => {
-    setGif("icegif-193.gif"); // Change gif on "Yes"
+    setGif("publix/icegif-193.gif"); // Change gif on "Yes"
     setIsYesClicked(true);   // Hide buttons and show "Yay" message
 
     // Send email silently
