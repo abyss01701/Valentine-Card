@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   const handleYesClick = () => {
-    setGif("publix/icegif-193.gif"); // Change gif on "Yes"
+    setGif("public/icegif-193.gif"); // Change gif on "Yes"
     setIsYesClicked(true);   // Hide buttons and show "Yay" message
 
     // Send email silently
