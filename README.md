@@ -41,7 +41,7 @@ const handleYesClick = () => {
 ```
 i.   Change 'your-email-service-id' to your service id. This can be found on the top of left panel of Email.js panel
 
-ii.  Change 'your-template-id' with your template id. This can be found under Emaiol templates
+ii.  Change 'your-template-id' with your template id. This can be found under Email templates
 
 iii. Change 'your-public-api-key' to your key. This can be found under Account-> General -> API keys
 
