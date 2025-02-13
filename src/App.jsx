@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 
 function App() {
 
-  const [gif, setGif] = useState("giphy.gif");
+  const [gif, setGif] = useState("/giphy.gif");
   const [isYesClicked, setIsYesClicked] = useState(false);
   const [scale, setScale] = useState(1);
 
