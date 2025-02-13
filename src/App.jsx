@@ -43,7 +43,7 @@ function App() {
       <div className="-mt-20 text-center">
         {!isYesClicked && (
         <h2 className="text-black text-3xl" style={{ fontFamily: "'Lucy Said OK', cursive" }}>
-          Will you be my valentine?
+          Will you be my valentine
         </h2>
         )}
 
