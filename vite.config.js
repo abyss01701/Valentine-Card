@@ -4,6 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Valentine-Card/", // Replace with your repo name
   plugins: [react(), tailwindcss()],
 })
