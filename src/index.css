@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Lucy Said OK';
+  src: url('/Lucy\ Said\ Ok\ Personal\ Use.ttf') format('truetype');
+}
+
+body{
+  background-image: url("/2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
